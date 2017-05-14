@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="42.305044">
-<testcase classname="Amazon App works" name="Searching in amazon" time="42.305044">
-<system-out><![CDATA[Given App is open...........................................................passed
-When I search for 'books'...................................................passed
-Then I should see results...................................................passed
-]]></system-out>
-</testcase>
-</testsuite>
