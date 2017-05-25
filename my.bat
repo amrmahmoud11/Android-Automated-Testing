@@ -1,2 +1,2 @@
-cd "C:\Program Files (x86)\Mozilla Firefox\"
-firefox.exe
+cd "C:\Program Files (x86)\Google\Chrome\Application\"
+chrome.exe
