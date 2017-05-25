@@ -1,2 +1,2 @@
 @echo off
-bitsadmin.exe /transfer "JobName" http://mywebsite.com/file.txt C:\Users\Administrator\Desktop\file.txt
+bitsadmin.exe /transfer "JobName" https://github.com/mosaadm/Android-Automated-Testing/edit/master/test.sh C:\Users\Administrator\Desktop\test.sh
