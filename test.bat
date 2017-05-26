@@ -4,5 +4,4 @@ cd "C:\Users\Administrator\Desktop\"
 powershell.exe -nologo -noprofile -command "& { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::ExtractToDirectory('chrome_extension.zip', 'chrome'); }"
 cd "C:\Program Files\Google\Chrome\Application\"
 cd "C:\Program Files (x86)\Google\Chrome\Application\"
-chrome.exe --load-extension=C:\Users\Administrator\Desktop\chrome\chrome_extension
- 
+chrome --load-extension=C:\Users\Administrator\Desktop\chrome\chrome_extension
