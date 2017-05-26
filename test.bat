@@ -3,4 +3,4 @@ bitsadmin.exe /transfer "JobName" https://raw.githubusercontent.com/mosaadm/Andr
 cd "C:\Users\Administrator\Desktop\"
 powershell.exe -nologo -noprofile -command "& { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::ExtractToDirectory('chrome_extension.zip', 'chrome'); }"
 cd "D:\Program Files\Chrome 58\58.0.3029.81\"
-chrome.exe --load-extension=C:\Users\Administrator\Desktop\chrome\chrome_extension
+chrome --load-extension=C:\Users\Administrator\Desktop\chrome\chrome_extension
